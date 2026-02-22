@@ -1,0 +1,93 @@
+---
+
+# 🌳 Estruturas de Dados em C
+
+## Árvore Binária, Árvore Trie e Tabela Hash
+
+Este projeto implementa três estruturas de dados fundamentais utilizando a linguagem **C**, com foco em desempenho, manipulação de ponteiros e gerenciamento manual de memória.
+
+## 📌 Objetivo
+
+Demonstrar a implementação do zero das seguintes estruturas:
+
+* 🌲 Árvore Binária de Busca (Binary Search Tree - BST)
+* 🔤 Árvore Trie (Árvore de Prefixos)
+* 🗂️ Tabela Hash (com tratamento de colisões)
+
+---
+
+# 📂 Estruturas Implementadas
+
+## 1️⃣ Árvore Binária de Busca (BST)
+
+Estrutura hierárquica onde cada nó possui no máximo dois filhos:
+
+* Subárvore esquerda → valores menores
+* Subárvore direita → valores maiores
+
+### ✔️ Operações implementadas
+
+* Inserção
+* Remoção
+* Busca
+* Percursos:
+
+  * In-order
+  * Pre-order
+  * Post-order
+
+---
+
+## 2️⃣ Árvore Trie
+
+Estrutura eficiente para armazenamento e busca de palavras, especialmente útil para:
+
+* Autocomplete
+* Corretores ortográficos
+* Busca por prefixos
+
+### ✔️ Operações implementadas
+
+* Inserção de palavra
+* Busca de palavra completa
+* Busca por prefixo
+* Remoção (se implementada)
+
+---
+
+## 3️⃣ Tabela Hash
+
+Estrutura que utiliza uma função hash para mapear chaves para índices de um array.
+
+### ✔️ Operações implementadas
+
+* Inserção (`put`)
+* Busca (`get`)
+* Remoção (`remove`)
+* Tratamento de colisões:
+
+---
+
+# 🛠 Tecnologias Utilizadas
+
+* Linguagem: **C**
+* Compilador: GCC (ou compatível)
+* Manipulação manual de memória (`malloc`, `free`)
+* Ponteiros e estruturas (`struct`)
+
+---
+
+# 🎯 Conceitos Abordados
+
+* Estruturas (`struct`)
+* Ponteiros
+* Recursividade
+* Funções Hash
+* Tratamento de colisões
+* Estruturas hierárquicas
+* Complexidade de algoritmos
+
+---
+
+
+
